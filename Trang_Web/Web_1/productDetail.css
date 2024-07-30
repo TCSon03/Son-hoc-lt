@@ -1,0 +1,98 @@
+/* font Jost */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 160px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.img-product {
+  width: 700px;
+}
+
+.img-product img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.item-product p.category {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4e7c32;
+  margin-bottom: 20px;
+}
+
+.item-product h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.item-product p.short-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #68707d;
+  margin-bottom: 30px;
+}
+
+.item-product span {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.item-product del {
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.item-product button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  font-size: 20px;
+  background-color: #4e7c32;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 500;
+}
+.item-product button:hover {
+  background-color: #4e7c32;
+  color: rgb(206, 129, 129);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.item-product i {
+  margin-right: 10px;
+}
+
+.discription {
+  margin-bottom: 32px;
+}
+
+.discription h3,
+.about h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #4e7c32;
+}
+
+.discription p,
+.about p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #665345;
+}
